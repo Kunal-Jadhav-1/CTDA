@@ -7,31 +7,31 @@ import img4 from "../images/img-4.png";
 
 const Description = () => {
   return (
-    <div id="ctda" className="max-w-3xl text-center my-10 p-4 px-6 bg-white rounded-md shadow-lg">
-      <h2 className="text-3xl text-gray-800 my-6 font-serif">What is CTDA?</h2>
-      <p className="text-gray-600 text-xl mb-8 font-serif">
-        "The Conversational Time-Coded Data Analyzer (CTDA) is a project focused
-        on analyzing chat data, particularly from chat-based applications like
+    <div id="ctda" className="max-w-3xl text-centre my-10 p-4 px-6 bg-white rounded-md shadow-lg">
+      <h2 className="text-3xl text-grey-800 my-6 font-serif">What is CTDA?</h2>
+      <p className="text-grey-600 text-xl mb-8 font-serif">
+        "The Conversational Time-Coded Data Analyser (CTDA) is a project focused
+        on analysing chat data, particularly from chat-based applications like
         WhatsApp, to extract valuable insights from professional conversations.
         CTDA processes unstructured data from exported chat conversations and
-        applies quantitative conversation text analyzing techniques for topic
-        modeling and interaction analysis."
+        applies quantitative conversation text analysing techniques for topic
+        modelling and interaction analysis."
       </p>
-      <p className="text-gray-600 text-xl mb-8 font-serif">
-        [We take your conversation and analyze it for you and present you with
-        the output in a visualized format you'll understand.]
+      <p className="text-grey-600 text-xl mb-8 font-serif">
+        [We take your conversation and analyse it for you and present you with
+        the output in a visualised format you'll understand.]
       </p>
 
-      <p className="text-lg text-gray-700 mt-4 font-serif font-bold">
-        Analyze your Convo
+      <p className="text-lg text-grey-700 mt-4 font-serif font-bold">
+        Analyse your Convo
       </p>
       <Link
         to="file-upload"
         smooth={true}
         duration={500}
-        className="inline-block cursor-pointer my-2 bg-cyan-700 text-white px-4 py-2 rounded-md shadow-lg hover:bg-cyan-500 transition duration-200"
+        className="inline-block cursor-pointer my-2 bg-cyan-700 text-white px-4 py-2 rounded-md shadow-lg hover:bg-cyan-500 transition duration-200 font-sans"
       >
-        Analyze
+        Analyse
       </Link>
       <div className="grid grid-cols-2 gap-4 mb-14 mt-10">
         <img

@@ -23,10 +23,10 @@ const FileUpload = () => {
   return (
     <div
       id="file-upload" 
-      className="flex flex-col justify-center font-serif font-semibold items-center h-[70%] bg-white rounded-md p-4 sm:p-6 md:p-8 w-full max-w-md sm:max-w-lg md:max-w-3xl"
+      className="flex flex-col justify-centre font-serif font-semibold items-centre h-[70%] bg-white rounded-md p-4 sm:p-6 md:p-8 w-full max-w-md sm:max-w-lg md:max-w-3xl"
     >
       <h2 className="text-lg sm:text-xl md:text-2xl mb-4">Upload Your Convo Here</h2>
-      <label className="cursor-pointer bg-cyan-600 text-white px-4 py-2 rounded-md shadow-lg hover:bg-cyan-500 transition duration-200 font-sans">
+      <label className="inline-block cursor-pointer my-2 bg-cyan-700 text-white px-4 py-2 rounded-md shadow-lg hover:bg-cyan-500 transition duration-200 font-sans w-[15%] mx-auto">
         Upload
         <input
           key={fileInputKey}
