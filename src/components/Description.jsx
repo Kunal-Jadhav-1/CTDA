@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-scroll";
-import img1 from "../images/img-1.png";
-import img2 from "../images/img-2.jpg";
-import img3 from "../images/img-3.png";
-import img4 from "../images/img-4.png";
+import img1 from "../images/img-1.jpg";
+import img3 from "../images/img-2.jpg";
+import img2 from "../images/img-3.png";
+import img4 from "../images/img-4.jpg";
 
 const Description = () => {
   return (
-    <div id="ctda" className="max-w-3xl text-centre my-10 p-4 px-6 bg-white rounded-md shadow-lg">
+    <div id="ctda" className="max-w-3xl text-centre md:my-0 my-10 p-4 px-6 bg-[#EBE7D9] rounded-md shadow-lg">
       <h2 className="text-3xl text-grey-800 my-6 font-serif">What is CTDA?</h2>
       <p className="text-grey-600 text-xl mb-8 font-serif">
         "The Conversational Time-Coded Data Analyser (CTDA) is a project focused
@@ -29,7 +29,7 @@ const Description = () => {
         to="file-upload"
         smooth={true}
         duration={500}
-        className="inline-block cursor-pointer my-2 bg-cyan-700 text-white px-4 py-2 rounded-md shadow-lg hover:bg-cyan-500 transition duration-200 font-sans"
+        className="inline-block cursor-pointer my-2 bg-[#0F222D] text-white px-4 py-2 rounded-md shadow-xl hover:bg-cyan-500 transition duration-200 font-sans"
       >
         Analyse
       </Link>
@@ -37,22 +37,22 @@ const Description = () => {
         <img
           src={img1}
           alt="Image 1"
-          className="w-full h-auto rounded-md shadow-md"
-        />
-        <img
-          src={img3}
-          alt="Image 3"
-          className="w-full h-auto rounded-md shadow-md"
+          className="w-full h-[100%] rounded-md shadow-md"
         />
         <img
           src={img2}
           alt="Image 2"
-          className="w-full h-auto rounded-md shadow-md"
+          className="w-full h-[100%] rounded-md shadow-md"
+        />
+        <img
+          src={img3}
+          alt="Image 3"
+          className="w-full h-[100%] rounded-md shadow-md"
         />
         <img
           src={img4}
           alt="Image 4"
-          className="w-full h-auto rounded-md shadow-md"
+          className="w-full h-[100%] rounded-md shadow-md"
         />
       </div>
     </div>
